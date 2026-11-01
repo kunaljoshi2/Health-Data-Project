@@ -1,0 +1,5 @@
+\copy organizations FROM 'data/csv/organizations.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8')
+\copy payers        FROM 'data/csv/payers.csv'        WITH (FORMAT csv, HEADER true, ENCODING 'UTF8')
+\copy providers     FROM 'data/csv/providers.csv'     WITH (FORMAT csv, HEADER true, ENCODING 'UTF8')
+\copy patients      FROM 'data/csv/patients.csv'      WITH (FORMAT csv, HEADER true, ENCODING 'UTF8')
+\copy encounters    FROM 'data/csv/encounters.csv'    WITH (FORMAT csv, HEADER true, ENCODING 'UTF8')
