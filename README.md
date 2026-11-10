@@ -10,7 +10,7 @@ Work in progress.
 
 - [x] Database schema with primary and foreign keys
 - [x] CSV load script
-- [x] Data validation queries (row counts, NULL checks, sanity checks, category checks)
+- [ ] Data validation queries (row counts, NULL checks, sanity checks, category checks)
 - [ ] Analysis queries
 - [ ] SQL views for reporting
 - [ ] Power BI dashboard
